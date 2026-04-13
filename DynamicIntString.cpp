@@ -17,6 +17,7 @@ int main (){
    cout<<*intergervalue<<endl;
    cout<<*stringValue<<endl;
 
+   return 0;
 
 
 }
