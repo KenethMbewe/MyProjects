@@ -41,4 +41,16 @@ bool Person::operator>(const Person& other) const {
     return mAge > other.mAge;
 }
 
+Person::operator int()const{
+    return mAge;
+}
+
+Person::operator string() const {
+    return mFirstName;
+}
+
+Person::operator float() const {
+    return mWeight;
+}
+
 

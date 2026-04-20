@@ -17,6 +17,12 @@ class Person{
     bool operator<(const Person& other)const;
     bool operator>(const Person& other)const;
 
+    operator int ()const;
+
+        
+    operator string() const;
+    operator float() const;
+
 
 
 
