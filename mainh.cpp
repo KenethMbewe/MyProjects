@@ -1,0 +1,18 @@
+#include <iostream>
+#include "Rectangleh.h"
+#include"Triangleh.h"
+using namespace std;
+
+int main (){
+    
+    Rectangle rect;
+    Triangle trgl;
+
+    rect.SetValues(4,5);
+    trgl.SetValues(4,5);
+
+    cout<<rect.Area()<<endl;
+    cout<<trgl.Area()<<endl;
+
+    return 0;
+}
